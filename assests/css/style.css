@@ -749,6 +749,8 @@ body {
     background-size: cover;
     position: relative;
     padding: 80px 0;
+    color: #FFF;
+    font-family:"Poppins", sans-serif;
   }
   
   .about:before {
@@ -776,8 +778,8 @@ body {
     position: absolute;
     left: 20px;
     top: 20px;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     z-index: 1;
     content: '';
     border-left: 5px solid #d6ac63;
@@ -812,9 +814,23 @@ body {
     bottom: 10px;
   }
   
+  .about-dateiles{ 
+    height: 24rem;
+    overflow-y: scroll ;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+  }
+   /* Hide scrollbar for Chrome, Safari and Opera  */
+  .about-dateiles::-webkit-scrollbar {
+      display: none;
+  }
+  .about-dateiles{
+    
+  }
   .about .about-dateiles h3 {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 23px;
   }
   
   .about .about-dateiles ul {
@@ -826,9 +842,9 @@ body {
     padding-bottom: 10px;
   }
   
-  .about .about-dateiles ul i {
+  .about .about-dateiles ul li i {
     font-size: 20px;
-    padding-right: 4px;
+    padding-right: 8px;
     color: #d6ac63;
   }
   
