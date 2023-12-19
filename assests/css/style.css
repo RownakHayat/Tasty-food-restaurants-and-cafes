@@ -814,20 +814,30 @@ body {
     bottom: 10px;
   }
   
-  .about-dateiles{ 
-    height: 24rem;
-    overflow-y: scroll ;
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-     scrollbar-width: none;  /* Firefox */
+  .about .about-dateiles{
+    height: 22rem;
+    overflow-y: scroll;
   }
-   /* Hide scrollbar for Chrome, Safari and Opera  */
-  .about-dateiles::-webkit-scrollbar {
-      display: none;
-  }
-  .about-dateiles{
-    
-  }
+ /* width */
+ .about-dateiles::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.about-dateiles::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2); 
+}
+ 
+/* Handle */
+.about .about-dateiles::-webkit-scrollbar-thumb {
+  background: #d6ac63; 
+}
+
+/* Handle on hover */
+.about .about-dateiles::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
   .about .about-dateiles h3 {
     font-weight: 600;
     font-size: 23px;
