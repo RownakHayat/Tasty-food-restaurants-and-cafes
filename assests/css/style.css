@@ -1094,28 +1094,6 @@ swiper-slide {
   justify-content: center;
   align-items: center;
 }
-.swiper-pagination {
-  /* position: absolute; */
-  margin-top: 1%;
-  text-align: center;
-  transition: opacity 0.3s ease 0s;
-  transform: translate3d(0px, 0px, 0px);
-  z-index: 10;
-}
-.swiper-pagination-bullet {
-    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
-    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
-    display: inline-block;
-    border-radius: var(--swiper-pagination-bullet-border-radius,50%);
-    background: rgba(247, 240, 240, 0.5);
-    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
-}
-.swiper-pagination-bullet-active {
-  background-color: #cda45e !important;
-}
-/* :host {
-    --swiper-theme-color: yellow;
-} */
 swiper-slide img {
   /* display: block; */
   width: 100%;
@@ -1126,21 +1104,52 @@ swiper-slide img {
 .content{
   text-align: left;
 }
+/* * Event Section  end*/
+/* Book A Table start */
+.book_table{
+  background-color: #0c0b09;
+}
 
-/* .events .swiper-pagination {
-  margin-top: 30px;
+.form .form-control{
+  background: none;
+  border-radius: none;
+  outline: 1px solid #cda45e;
+  border: none;
+}
+
+.form .form-control:focus{
+  background: none;
+  outline: none;
+  border: none;
+  color:#d9ba85;
+
+}
+
+.form-submit-btn{
+  border-radius: 15px;
+  background: #CEA45E;
+  padding: 3px 15px;
+  color: #fff;
+  border: none;
+
+}
+/* Book a table end  */
+/* Say About start */
+.say-about{
+  background: #1A1814;
+}
+.author-datelis{
+  color: #fff;
+  text-wrap: wrap;
+  align-items: last baseline;
+}
+.author{
+  width: 18%;
+  box-sizing: border-box;
   position: relative;
 }
+.author .author-image img{
 
-.events .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 1;
+  border-radius: 75px;
 }
-
-.events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
-} */
-
-/* * Event Section  end*/
+/* Say about end  */

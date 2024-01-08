@@ -386,7 +386,7 @@
             --swiper-pagination-bullet-inactive-opacity: .9;
             --swiper-pagination-bullet-inactive-color: #999999;
             --swiper-pagination-position: unset;
-            --swiper-pagination-margin-top: 1%;"
+            --swiper-pagination-margin-top: 2%;"
             class="mySwiper" space-between="30" pagination="true" pagination-clickable="true">
                 <swiper-slide>
                   <div class="row event-item">
@@ -469,6 +469,93 @@
             </swiper-container>
           </div>
       </section>
+      <!-- Book a table start -->
+      <section id="book_table" class="book_table">
+        <div class="container" data-aos="fade-up">
+          <div class="menu-title">
+            <div class="menu-title">
+              <p>Reservation</p>
+              <h3>Book a Table</h3>
+            </div>
+          </div>
+            <form action="forms/book-a-table.php" method="post" role="form" class="form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                 
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                  <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                 
+                </div>
+                <div class="col-lg-4 col-md-6 form-group mt-3">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                
+              </div>
+              <div class="text-center mt-4"><button type="submit" class="form-submit-btn" >Book a Table</button></div>
+            </form>
+        </div>
+      </section>
+<!-- Book a table end -->
+<!-- About us start  -->
+      <section id="say-about" class="say-about">
+        <div class="container">
+          <div class="menu-title">
+            <p>Testimonials</p>
+            <h3>What they'er saying about us</h3>
+          </div>
+          <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+        space-between="30" free-mode="true">
+        <swiper-slide>
+          <div class="row event-item">
+            <div class="">
+              <div class="">
+                <div class="author-datelis">
+                  <p><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugit dolorem, explicabo obcaecati quod eaque atque autem nobis. 
+                    Distinctio nam nobis eius asperiores veritatis quas, 
+                    recusandae beatae cumque reiciendis, aut voluptas! <span>"</span></p>
+                </div>
+                  <div class="author">
+                    <div class="author-image">
+                      <img src="assests/image/user1.jpg" alt="">
+                    </div>
+                    <h6>Saul Goodman</h6>
+                    <p><span>Ceo & Founder</span></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <swiper-slide>Slide 6</swiper-slide>
+        <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide>
+  </swiper-container>
+        </div>
+      </section>
+<!-- About us end  -->
 </main>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
