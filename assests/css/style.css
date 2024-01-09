@@ -1141,15 +1141,46 @@ swiper-slide img {
 .author-datelis{
   color: #fff;
   text-wrap: wrap;
-  align-items: last baseline;
+  text-align: left;
+  font-size: small;
+  box-sizing: border-box;
+  background:#26231D;
+  border-radius: 8px;
+  padding: 10px 10px 35px 10px;
+}
+img.inverted-commas {
+  width: 6%;
+  color: #CEA45E;
 }
 .author{
   width: 18%;
+  margin-top: -2rem;
   box-sizing: border-box;
   position: relative;
+  margin-left: 1rem;
 }
 .author .author-image img{
-
+  /* box-shadow: 1px solid gray; */
   border-radius: 75px;
+  outline-style: auto;
+}
+.author-name{
+  width: 20%;
+  color: #fff;
+  line-height: 1%;
+  text-wrap: nowrap;
+  float: left;
+  
+}
+.author-name h6{
+  font-size:small ;
+}
+.author-name p span{
+  font-size: small;
 }
 /* Say about end  */
+/* Some Photos start  */
+.group_phto{
+  background: #0C0B09;
+}
+/* Some Photos end  */
