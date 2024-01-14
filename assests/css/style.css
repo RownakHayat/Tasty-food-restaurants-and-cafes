@@ -25,99 +25,7 @@ body {
     font-family: "Playfair Display", serif;
   }
   
-  /* /* /*--------------------------------------------------------------
-  # Preloader
-  --------------------------------------------------------------*/
-  /* #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    overflow: hidden;
-    background: #1a1814;
-  }
   
-  #preloader:before {
-    content: "";
-    position: fixed;
-    top: calc(50% - 30px);
-    left: calc(50% - 30px);
-    border: 6px solid #1a1814;
-    border-top-color: #d6ac63;
-    border-bottom-color: #d6ac63;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
-  }
-  
-  @-webkit-keyframes animate-preloader {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes animate-preloader {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  } */ */
-   */
-  /*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
-  /* .back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
-    transition: all 0.4s;
-    border: 2px solid #d6ac63;
-  }
-  
-  .back-to-top i {
-    font-size: 28px;
-    color: #d6ac63;
-    line-height: 0;
-  }
-  
-  .back-to-top:hover {
-    background: #d6ac63;
-    color: #1a1814;
-  }
-  
-  .back-to-top:hover i {
-    color: #444444;
-  }
-  
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  /*--------------------------------------------------------------
-  # Disable aos animation delay on mobile devices
-  --------------------------------------------------------------*/ */
-  /* @media screen and (max-width: 768px) {
-    [data-aos-delay] {
-      transition-delay: 0 !important;
-    }
-  }
-   */
   /*--------------------------------------------------------------
   # Top Bar
   --------------------------------------------------------------*/
@@ -439,7 +347,7 @@ body {
   #home {
     width: 100%;
     height: 100vh;
-    background: url("../image/bg-RestaurantsFood.avif") top center;
+    background: url("../image/homepage.jpg") top center;
     background-size: cover;
     position: relative;
     padding: 0;
@@ -1014,7 +922,7 @@ body {
 
 /* Event Section  */
 .events {
-  background: url(../image/eventbg.jpeg) center center no-repeat;
+  background: url(../image/about.jpeg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1182,5 +1090,28 @@ img.inverted-commas {
 /* Some Photos start  */
 .group_phto{
   background: #0C0B09;
+}
+.group_phto .row{
+  padding: none !important;
+}
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: none !important;
+  margin-top: var(--bs-gutter-y);
+}
+.img-grup{
+  -webkit-filter: none;
+  filter: blur(2px);
+  /* height: 20%; */
+}
+.img-grup:hover{
+  -webkit-filter: blur(0px);
+  filter: none;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  
 }
 /* Some Photos end  */
