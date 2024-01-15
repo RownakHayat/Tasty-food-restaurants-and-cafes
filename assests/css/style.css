@@ -1101,17 +1101,11 @@ img.inverted-commas {
   padding: none !important;
   margin-top: var(--bs-gutter-y);
 }
-.img-grup{
-  -webkit-filter: none;
-  filter: blur(2px);
-  /* height: 20%; */
-}
 .img-grup:hover{
-  -webkit-filter: blur(0px);
-  filter: none;
   -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -webkit-transform: scale(1.1); /*Safari 3-8 */
   transform: scale(1.1);
   
 }
+
 /* Some Photos end  */
