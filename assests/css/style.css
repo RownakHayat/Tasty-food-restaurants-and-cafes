@@ -24,7 +24,9 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
   }
-  
+  .menu-title p{
+    text-transform: uppercase;
+   }
   
   /*--------------------------------------------------------------
   # Top Bar
@@ -1110,8 +1112,19 @@ img.inverted-commas {
 
 /* Some Photos end  */
 
-/* swiper-slide.swiper-slide-next {
-  width: 370px;
-  height: 238px;
+ /* Chefs Photo start */
+ .chefs{
+  background: #0C0B09;
+ }
+ .chefs-card .card{
+  background: none;
+ }
+ /* Chefs Photo end */
+
+ /* Contact us start  */
+ .contact-us {
+  background: #0C0B09;
+ }
  
-} */
+
+ /* Contact Us end  */
